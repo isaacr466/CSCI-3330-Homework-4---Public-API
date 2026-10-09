@@ -22,11 +22,11 @@ async function load() {
 
     // Ask for the values because the starter code above resets localStorage.
     if (!gameID) {
-        gameID = prompt("Enter a GameBrain game ID:", "442240");
+        gameID = "442240";
     }
 
     if (!apiKey) {
-        apiKey = prompt("Enter your GameBrain API key:");
+        apiKey = "4928a1da41a747a1b36b47c5d29da4aa";
     }
 
     if (!gameID || !apiKey) {
